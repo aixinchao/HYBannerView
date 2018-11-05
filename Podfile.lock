@@ -1,0 +1,30 @@
+PODS:
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - ZFPlayer (3.1.4):
+    - ZFPlayer/Core (= 3.1.4)
+  - ZFPlayer/AVPlayer (3.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.1.4)
+
+DEPENDENCIES:
+  - SDWebImage
+  - ZFPlayer
+  - ZFPlayer/AVPlayer
+  - ZFPlayer/ControlView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  ZFPlayer: 36fa2967a257c619b7e8b572c79de7b61adde3cd
+
+PODFILE CHECKSUM: 5efe3cbc4a6d7be364640bc19018caf74a32edeb
+
+COCOAPODS: 1.5.3

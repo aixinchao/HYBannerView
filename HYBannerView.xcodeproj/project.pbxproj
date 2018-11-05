@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27596FF9730D93075F5084C8 /* libPods-HYBannerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF1026A975CEBB8F36144C6 /* libPods-HYBannerView.a */; };
+		42EC350C218D34BE00DCB767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC350B218D34BE00DCB767 /* AppDelegate.m */; };
+		42EC350F218D34BE00DCB767 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC350E218D34BE00DCB767 /* ViewController.m */; };
+		42EC3512218D34BE00DCB767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EC3510218D34BE00DCB767 /* Main.storyboard */; };
+		42EC3515218D34BE00DCB767 /* HYBannerView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42EC3513218D34BE00DCB767 /* HYBannerView.xcdatamodeld */; };
+		42EC3517218D34BE00DCB767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EC3516218D34BE00DCB767 /* Assets.xcassets */; };
+		42EC351A218D34BE00DCB767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EC3518218D34BE00DCB767 /* LaunchScreen.storyboard */; };
+		42EC351D218D34BE00DCB767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC351C218D34BE00DCB767 /* main.m */; };
+		42EC3527218D34BE00DCB767 /* HYBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC3526218D34BE00DCB767 /* HYBannerViewTests.m */; };
+		42EC3532218D34BE00DCB767 /* HYBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC3531218D34BE00DCB767 /* HYBannerViewUITests.m */; };
+		42EC3549218D36D900DCB767 /* HYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC3547218D36D900DCB767 /* HYBannerView.m */; };
+		42EC354A218D36D900DCB767 /* HYBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC3548218D36D900DCB767 /* HYBannerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EC3523218D34BE00DCB767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EC34FF218D34BD00DCB767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EC3506218D34BD00DCB767;
+			remoteInfo = HYBannerView;
+		};
+		42EC352E218D34BE00DCB767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EC34FF218D34BD00DCB767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EC3506218D34BD00DCB767;
+			remoteInfo = HYBannerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42EC3507218D34BD00DCB767 /* HYBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EC350A218D34BE00DCB767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42EC350B218D34BE00DCB767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42EC350D218D34BE00DCB767 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42EC350E218D34BE00DCB767 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42EC3511218D34BE00DCB767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EC3514218D34BE00DCB767 /* HYBannerView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HYBannerView.xcdatamodel; sourceTree = "<group>"; };
+		42EC3516218D34BE00DCB767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EC3519218D34BE00DCB767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EC351B218D34BE00DCB767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EC351C218D34BE00DCB767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42EC3522218D34BE00DCB767 /* HYBannerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYBannerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EC3526218D34BE00DCB767 /* HYBannerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBannerViewTests.m; sourceTree = "<group>"; };
+		42EC3528218D34BE00DCB767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EC352D218D34BE00DCB767 /* HYBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EC3531218D34BE00DCB767 /* HYBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBannerViewUITests.m; sourceTree = "<group>"; };
+		42EC3533218D34BE00DCB767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EC3545218D36D900DCB767 /* HYBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBannerView.h; sourceTree = "<group>"; };
+		42EC3546218D36D900DCB767 /* HYBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBannerViewController.h; sourceTree = "<group>"; };
+		42EC3547218D36D900DCB767 /* HYBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBannerView.m; sourceTree = "<group>"; };
+		42EC3548218D36D900DCB767 /* HYBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBannerViewController.m; sourceTree = "<group>"; };
+		4BF1026A975CEBB8F36144C6 /* libPods-HYBannerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYBannerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE318FDC02B66FF0B1DD2C3C /* Pods-HYBannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYBannerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYBannerView/Pods-HYBannerView.release.xcconfig"; sourceTree = "<group>"; };
+		D7DE5148DB5A22812019C142 /* Pods-HYBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYBannerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYBannerView/Pods-HYBannerView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EC3504218D34BD00DCB767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27596FF9730D93075F5084C8 /* libPods-HYBannerView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC351F218D34BE00DCB767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC352A218D34BE00DCB767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EC34FE218D34BD00DCB767 = {
+			isa = PBXGroup;
+			children = (
+				42EC3509218D34BD00DCB767 /* HYBannerView */,
+				42EC3525218D34BE00DCB767 /* HYBannerViewTests */,
+				42EC3530218D34BE00DCB767 /* HYBannerViewUITests */,
+				42EC3508218D34BD00DCB767 /* Products */,
+				4879D1093D2F4E459EA8A490 /* Pods */,
+				6B730C3FD775D8CAAD3CB650 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42EC3508218D34BD00DCB767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EC3507218D34BD00DCB767 /* HYBannerView.app */,
+				42EC3522218D34BE00DCB767 /* HYBannerViewTests.xctest */,
+				42EC352D218D34BE00DCB767 /* HYBannerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EC3509218D34BD00DCB767 /* HYBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				42EC350A218D34BE00DCB767 /* AppDelegate.h */,
+				42EC350B218D34BE00DCB767 /* AppDelegate.m */,
+				42EC350D218D34BE00DCB767 /* ViewController.h */,
+				42EC350E218D34BE00DCB767 /* ViewController.m */,
+				42EC3545218D36D900DCB767 /* HYBannerView.h */,
+				42EC3547218D36D900DCB767 /* HYBannerView.m */,
+				42EC3546218D36D900DCB767 /* HYBannerViewController.h */,
+				42EC3548218D36D900DCB767 /* HYBannerViewController.m */,
+				42EC3510218D34BE00DCB767 /* Main.storyboard */,
+				42EC3516218D34BE00DCB767 /* Assets.xcassets */,
+				42EC3518218D34BE00DCB767 /* LaunchScreen.storyboard */,
+				42EC351B218D34BE00DCB767 /* Info.plist */,
+				42EC351C218D34BE00DCB767 /* main.m */,
+				42EC3513218D34BE00DCB767 /* HYBannerView.xcdatamodeld */,
+			);
+			path = HYBannerView;
+			sourceTree = "<group>";
+		};
+		42EC3525218D34BE00DCB767 /* HYBannerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				42EC3526218D34BE00DCB767 /* HYBannerViewTests.m */,
+				42EC3528218D34BE00DCB767 /* Info.plist */,
+			);
+			path = HYBannerViewTests;
+			sourceTree = "<group>";
+		};
+		42EC3530218D34BE00DCB767 /* HYBannerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42EC3531218D34BE00DCB767 /* HYBannerViewUITests.m */,
+				42EC3533218D34BE00DCB767 /* Info.plist */,
+			);
+			path = HYBannerViewUITests;
+			sourceTree = "<group>";
+		};
+		4879D1093D2F4E459EA8A490 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7DE5148DB5A22812019C142 /* Pods-HYBannerView.debug.xcconfig */,
+				AE318FDC02B66FF0B1DD2C3C /* Pods-HYBannerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B730C3FD775D8CAAD3CB650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BF1026A975CEBB8F36144C6 /* libPods-HYBannerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EC3506218D34BD00DCB767 /* HYBannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EC3536218D34BE00DCB767 /* Build configuration list for PBXNativeTarget "HYBannerView" */;
+			buildPhases = (
+				B1E140377B43F46FFEBE53BB /* [CP] Check Pods Manifest.lock */,
+				42EC3503218D34BD00DCB767 /* Sources */,
+				42EC3504218D34BD00DCB767 /* Frameworks */,
+				42EC3505218D34BD00DCB767 /* Resources */,
+				160A1707B76255B8C9406CC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYBannerView;
+			productName = HYBannerView;
+			productReference = 42EC3507218D34BD00DCB767 /* HYBannerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EC3521218D34BE00DCB767 /* HYBannerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EC3539218D34BE00DCB767 /* Build configuration list for PBXNativeTarget "HYBannerViewTests" */;
+			buildPhases = (
+				42EC351E218D34BE00DCB767 /* Sources */,
+				42EC351F218D34BE00DCB767 /* Frameworks */,
+				42EC3520218D34BE00DCB767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EC3524218D34BE00DCB767 /* PBXTargetDependency */,
+			);
+			name = HYBannerViewTests;
+			productName = HYBannerViewTests;
+			productReference = 42EC3522218D34BE00DCB767 /* HYBannerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42EC352C218D34BE00DCB767 /* HYBannerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EC353C218D34BE00DCB767 /* Build configuration list for PBXNativeTarget "HYBannerViewUITests" */;
+			buildPhases = (
+				42EC3529218D34BE00DCB767 /* Sources */,
+				42EC352A218D34BE00DCB767 /* Frameworks */,
+				42EC352B218D34BE00DCB767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EC352F218D34BE00DCB767 /* PBXTargetDependency */,
+			);
+			name = HYBannerViewUITests;
+			productName = HYBannerViewUITests;
+			productReference = 42EC352D218D34BE00DCB767 /* HYBannerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EC34FF218D34BD00DCB767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = aixinchao;
+				TargetAttributes = {
+					42EC3506218D34BD00DCB767 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					42EC3521218D34BE00DCB767 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42EC3506218D34BD00DCB767;
+					};
+					42EC352C218D34BE00DCB767 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42EC3506218D34BD00DCB767;
+					};
+				};
+			};
+			buildConfigurationList = 42EC3502218D34BD00DCB767 /* Build configuration list for PBXProject "HYBannerView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EC34FE218D34BD00DCB767;
+			productRefGroup = 42EC3508218D34BD00DCB767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EC3506218D34BD00DCB767 /* HYBannerView */,
+				42EC3521218D34BE00DCB767 /* HYBannerViewTests */,
+				42EC352C218D34BE00DCB767 /* HYBannerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EC3505218D34BD00DCB767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC351A218D34BE00DCB767 /* LaunchScreen.storyboard in Resources */,
+				42EC3517218D34BE00DCB767 /* Assets.xcassets in Resources */,
+				42EC3512218D34BE00DCB767 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC3520218D34BE00DCB767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC352B218D34BE00DCB767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160A1707B76255B8C9406CC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HYBannerView/Pods-HYBannerView-resources.sh",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYBannerView/Pods-HYBannerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E140377B43F46FFEBE53BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYBannerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EC3503218D34BD00DCB767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC350F218D34BE00DCB767 /* ViewController.m in Sources */,
+				42EC354A218D36D900DCB767 /* HYBannerViewController.m in Sources */,
+				42EC3515218D34BE00DCB767 /* HYBannerView.xcdatamodeld in Sources */,
+				42EC351D218D34BE00DCB767 /* main.m in Sources */,
+				42EC350C218D34BE00DCB767 /* AppDelegate.m in Sources */,
+				42EC3549218D36D900DCB767 /* HYBannerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC351E218D34BE00DCB767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC3527218D34BE00DCB767 /* HYBannerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC3529218D34BE00DCB767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC3532218D34BE00DCB767 /* HYBannerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EC3524218D34BE00DCB767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EC3506218D34BD00DCB767 /* HYBannerView */;
+			targetProxy = 42EC3523218D34BE00DCB767 /* PBXContainerItemProxy */;
+		};
+		42EC352F218D34BE00DCB767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EC3506218D34BD00DCB767 /* HYBannerView */;
+			targetProxy = 42EC352E218D34BE00DCB767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EC3510218D34BE00DCB767 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EC3511218D34BE00DCB767 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EC3518218D34BE00DCB767 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EC3519218D34BE00DCB767 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EC3534218D34BE00DCB767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42EC3535218D34BE00DCB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EC3537218D34BE00DCB767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DE5148DB5A22812019C142 /* Pods-HYBannerView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CRML88LXB7;
+				INFOPLIST_FILE = HYBannerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aixinchao.HYBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42EC3538218D34BE00DCB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE318FDC02B66FF0B1DD2C3C /* Pods-HYBannerView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CRML88LXB7;
+				INFOPLIST_FILE = HYBannerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aixinchao.HYBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42EC353A218D34BE00DCB767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYBannerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aixinchao.HYBannerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYBannerView.app/HYBannerView";
+			};
+			name = Debug;
+		};
+		42EC353B218D34BE00DCB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYBannerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aixinchao.HYBannerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYBannerView.app/HYBannerView";
+			};
+			name = Release;
+		};
+		42EC353D218D34BE00DCB767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYBannerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aixinchao.HYBannerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYBannerView;
+			};
+			name = Debug;
+		};
+		42EC353E218D34BE00DCB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYBannerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aixinchao.HYBannerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYBannerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EC3502218D34BD00DCB767 /* Build configuration list for PBXProject "HYBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EC3534218D34BE00DCB767 /* Debug */,
+				42EC3535218D34BE00DCB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EC3536218D34BE00DCB767 /* Build configuration list for PBXNativeTarget "HYBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EC3537218D34BE00DCB767 /* Debug */,
+				42EC3538218D34BE00DCB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EC3539218D34BE00DCB767 /* Build configuration list for PBXNativeTarget "HYBannerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EC353A218D34BE00DCB767 /* Debug */,
+				42EC353B218D34BE00DCB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EC353C218D34BE00DCB767 /* Build configuration list for PBXNativeTarget "HYBannerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EC353D218D34BE00DCB767 /* Debug */,
+				42EC353E218D34BE00DCB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42EC3513218D34BE00DCB767 /* HYBannerView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42EC3514218D34BE00DCB767 /* HYBannerView.xcdatamodel */,
+			);
+			currentVersion = 42EC3514218D34BE00DCB767 /* HYBannerView.xcdatamodel */;
+			path = HYBannerView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42EC34FF218D34BD00DCB767 /* Project object */;
+}
